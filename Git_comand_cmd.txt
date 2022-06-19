@@ -15,3 +15,23 @@ c:\projects\Skillfactory\Test>git add Git_comand_cmd.txt
 c:\projects\Skillfactory\Test>git commit -m "A new file is added"
 
 c:\projects\Skillfactory\Test>git push
+
+Создание новой ветки команда git branch
+c:\projects\Skillfactory\Test>git branch testbranch00
+
+Команда git branch --list.
+Она выведет список веток, которые существуют в вашем 
+локальном репозитории. 
+Текущая ветка master будет выделена зелёным цветом
+
+Команду git branch --list -v . 
+Вы увидите информацию о последних коммитах каждой из 
+веток. Так как коммитов в ветку testbranch00 ещё 
+не было, то она указывает на коммит в мастере, 
+от которого была создана.
+
+Команду git checkout необходимо выполнить для переключения
+на созданную ветку. Выполняя команду git checkout, укажите 
+после неё имя ветки, на которую вы хотите переключиться. 
+Например, git checkout testbranch00. Вы получите сообщение 
+о переключении на ветку testbranch00.
